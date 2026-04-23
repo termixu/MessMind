@@ -1,0 +1,7 @@
+nodes:
+  - id: 0
+    neighbors: ["http://node1:5000", "http://node2:5000"]
+  - id: 1
+    neighbors: ["http://node0:5000", "http://node2:5000"]
+  - id: 2
+    neighbors: ["http://node0:5000", "http://node1:5000"]
